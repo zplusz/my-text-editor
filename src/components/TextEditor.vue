@@ -152,13 +152,14 @@
   }
   
   .editor {
-    width: 48%;
+    width: 50%;
     border: 1px solid #ccc;
     padding: 10px;
   }
   
   .toolbar {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 10px;
   }
@@ -187,7 +188,7 @@
   }
   
   .html-display {
-    width: 48%;
+    width: 50%;
     border: 1px solid #ccc;
     padding: 10px;
     background-color: black;
